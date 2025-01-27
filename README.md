@@ -1,44 +1,19 @@
 # Number-Guessing-game-using-Python
 Overview
 
-The Number Guessing Game is a fun and simple Python-based program where the player guesses a randomly generated number within a specific range. The program provides feedback for each guess, letting the player know if the guess is too high, too low, or correct.
+This Number Guessing Game is a Python-based interactive program where the user attempts to guess a randomly generated number within a user-specified range. The game provides feedback for each incorrect guess, letting the user know if their guess is too low or too high. It also keeps track of the number of attempts made and provides a summary at the end.
 
 Features
 
-Random number generation for replayable fun.
+User-defined range for the random number generation.
 
-Customizable range for guessing (e.g., 1-100).
+Feedback for each incorrect guess:
 
-Feedback provided for every guess to guide the player.
+"Too low" if the guess is less than the number.
 
-Keeps track of the number of attempts.
+"Too high" if the guess is greater than the number.
 
-Displays a congratulatory message when the correct number is guessed.
+Tracks the total number of attempts.
 
-Prerequisites
+Congratulatory message upon successful guessing.
 
-Python 3.x installed on your system.
-
-How to Run the Game
-
-Copy the Python code into a file named number_guessing_game.py.
-
-Open a terminal or command prompt and navigate to the directory where the file is saved.
-
-Run the script using the command:
-
-python number_guessing_game.py
-
-Follow the on-screen instructions to play the game.
-
-How to Play
-
-The program will generate a random number within a specified range (e.g., 1-100).
-
-Enter your guess when prompted.
-
-The program will provide feedback:
-
-If the guess is too high, it will display "Too high! Try again."
-
-If the guess is too low, it will display "Too low! Try again."
